@@ -1,0 +1,11 @@
+IMPORTANT: Add Your Photo
+
+To display your photo on the website:
+
+1. Save your photo as: photo.jpg
+2. Place it in the same directory as index.html
+3. The photo should be a square or portrait orientation
+4. Recommended size: 500x500 pixels or larger
+
+The photo will automatically display in the hero section on the left side.
+
