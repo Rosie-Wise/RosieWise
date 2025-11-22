@@ -106,6 +106,16 @@ body {
     box-shadow: 0 20px 60px rgba(107, 70, 193, 0.2);
     border: 5px solid var(--white);
     background: var(--purple-lightest);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-photo-wrapper.photo-placeholder::before {
+    content: '📷';
+    font-size: 4rem;
+    opacity: 0.5;
 }
 
 .hero-photo {
@@ -113,6 +123,10 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+.hero-photo-wrapper.photo-placeholder .hero-photo {
+    display: none;
 }
 
 .hero-text {
