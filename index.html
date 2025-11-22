@@ -10,40 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
-            <div class="hero-image-section">
-                <div class="hero-image-container">
-                    <img src="photo.jpg" alt="Rosie Wise" class="hero-photo">
-                </div>
+    <!-- Simple Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">ROSIE & WISE</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="resume.pdf" download>Resume</a>
             </div>
-            <div class="hero-text-section">
-                <div class="logo-container">
-                    <div class="logo-text">
-                        <span class="logo-word logo-left">ROSIE</span>
-                        <span class="logo-ampersand">&</span>
-                        <span class="logo-word logo-right">WISE</span>
-                    </div>
-                </div>
-                <p class="hero-bio">I'M A COMMERCE STUDENT, PROBLEM SOLVER, STRATEGIST, AND GOAL-GETTER</p>
-                <div class="hero-actions">
-                    <a href="https://www.linkedin.com/in/rosie-wise-" target="_blank" class="action-item">
-                        <span class="action-label">CONNECT:</span>
-                        <span class="action-text">LinkedIn Profile</span>
-                    </a>
-                    <a href="#about" class="action-item">
-                        <span class="action-label">VIEW:</span>
-                        <span class="action-text">My Experience</span>
-                    </a>
-                    <a href="resume.pdf" download class="action-item">
-                        <span class="action-label">DOWNLOAD:</span>
-                        <span class="action-text">My Resume</span>
-                    </a>
-                    <a href="#contact" class="action-item">
-                        <span class="action-label">CONTACT:</span>
-                        <span class="action-text">Get in Touch</span>
-                    </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-photo-wrapper">
+                <img src="photo.jpg" alt="Rosie Wise" class="hero-photo">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-name">Rosie Wise</h1>
+                <p class="hero-title">Commerce Student at Queen's University</p>
+                <p class="hero-subtitle">Smith School of Business</p>
+                <p class="hero-location">Toronto, Ontario, Canada</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                 </div>
             </div>
         </div>
@@ -88,4 +80,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
