@@ -1,0 +1,11 @@
+HOW TO ADD YOUR PHOTO:
+
+1. Save your photo file in this folder (same folder as index.html)
+2. Name it exactly: photo.jpg
+   OR name it: photo.png
+3. The photo will automatically appear in the center of the page
+
+Supported formats: .jpg, .jpeg, .png
+
+The photo will be displayed in a circular frame at the top center of the page.
+
