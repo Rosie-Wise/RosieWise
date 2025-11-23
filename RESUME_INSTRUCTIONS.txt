@@ -1,0 +1,11 @@
+HOW TO ADD YOUR RESUME:
+
+1. Save your resume as a PDF file
+2. Name it exactly: resume.pdf
+3. Place it in this folder (same folder as index.html)
+4. The Resume link in the navigation will automatically work
+
+The file should be named: resume.pdf
+
+Once you add the file, clicking "Resume" in the navigation will download your resume.
+
